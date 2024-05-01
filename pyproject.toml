@@ -23,6 +23,9 @@ classifiers = [
     "Programming Language :: Python",
     "Topic :: Software Development",
 ]
+packages = [
+    {include='ascender_playground', from='src'}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
