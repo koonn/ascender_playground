@@ -24,11 +24,13 @@ classifiers = [
     "Topic :: Software Development",
 ]
 packages = [
-    {include='ascender_playground', from='src'}
+    {include='mypackage', from='src'}
 ]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+torch = "^2.3.0"
+ipykernel = "^6.29.4"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.1"
